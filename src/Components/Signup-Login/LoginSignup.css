@@ -1,0 +1,22 @@
+.container {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  background: white;
+  padding-bottom: 30px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #2a00b7;
+  font-size: 35px;
+}
