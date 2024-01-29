@@ -4,7 +4,9 @@
   flex-direction: column;
   margin: auto;
   margin-top: 200px;
+  width: 600px;
   background: white;
+  border-radius: 30px;
   padding-bottom: 30px;
 }
 .header {
@@ -58,4 +60,33 @@
   outline: none;
   color: #797979;
   font-size: 19px;
+}
+
+.forgot-password {
+  /* display: flex;
+  align-item: center;
+  margin: auto; */
+  padding-left: 110px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  cursor: pointer;
+  color: #797979;
+  /* font-size: 10px; */
+  font-weight: 20px;
+  padding-left: 180px;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
 }
