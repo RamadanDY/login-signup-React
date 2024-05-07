@@ -8,7 +8,7 @@ export const LoginSignup = () => {
     ////crreating the html code for our component
     <div className='container'>
         <div className="header">
-            <div className="text">Sign-Up</div>
+            <div className="text text-7xl">Sign-Up</div>
             <div className="underline"></div>
         </div>
         <div className="inputs">
@@ -16,7 +16,7 @@ export const LoginSignup = () => {
                 <img src={person_icon} alt="" />
                 <input type="text" placeholder='Name' autoFocus/>
             </div>
-            <div className="input">
+            <div className="input" >
                 <img src={email_icon} alt="" />
                 <input type="email" placeholder='Email id'/>
             </div>
