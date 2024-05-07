@@ -12,9 +12,9 @@ export const LoginSignup = () => {
             <div className="underline"></div>
         </div>
         <div className="inputs">
-            <div className="input">
+            <div className="input" >
                 <img src={person_icon} alt="" />
-                <input type="text" placeholder='Name'/>
+                <input type="text" placeholder='Name' autoFocus/>
             </div>
             <div className="input">
                 <img src={email_icon} alt="" />
